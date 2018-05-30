@@ -6,15 +6,15 @@ class Human extends Animal implements Thinkable {
 
 
     //コンストラクタ
+
+    String hobby;
+
     public Human(String name, String hobby,int age) {
+
         this.name = name;
         this.age = age;
         this.hobby = hobby;
-
-        name="";
-        hobby="";
-        age=0;
-    }
+        }
 
     //メンバ関数
     @Override
